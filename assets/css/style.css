@@ -1233,3 +1233,15 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.vertcal-line {
+  position: relative;
+}
+.vertcal-line::before {
+  content: "";
+  border-left: 2px solid 000000;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+}
